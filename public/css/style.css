@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+/*img {
+  margin: 0 auto;
+  display: flex;
+}*/
+
+.search-page {
+    /*background-color: #000000;*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-image: url("http://s17.postimg.org/fr01hfe33/image.jpg");
+    background-size: cover;
+    background-repeat: none;
+    text-align: center;
+    height:1024px;
+}
+
+.wrapper {
+  position: relative;
+  left: 50%;
+  width: 1000px;
+  height: 800px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.full {
+    background: url(http://placehold.it/1920x1080) center center / cover no-repeat fixed;
+}
+
+/* Search page */
+.id-search-box {
+  padding-top: 15%;
+}
+.id-search-box-width{
+  width: 25%;
+  margin: 0 auto;
+}
+.searchBoxWrapper{
+  display: flex;
+  margin-bottom: 19px;
+}
+.searchBoxTitle{
+  color:white;
+  padding-top: 5%;
+
+}
+.searchBox {
+  float: left;
+    color: black;
+    display: table-cell;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.searchBtn {
+  width: 15%;
+  border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 2px solid #524dfe;
+    background-color: #524dfe;
+    display: table-cell;
+    color:white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Slideshow page */
+  .loadingContainer {
+    padding-top: 15%;
+    text-align: center;
+  }
+  .loading {
+    width: 6%;
+  }
+  .slideshow-page {
+    background-color: black;
+    height:1024px;
+  }
+  /*img.bg {
+
+    min-height: 100%;
+    min-width: 1024px;
+    
+
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+  }*/
+  img.bg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+  }

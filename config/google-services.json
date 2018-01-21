@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "604150610506",
+    "firebase_url": "https://autophoto-3e7d2.firebaseio.com",
+    "project_id": "autophoto-3e7d2",
+    "storage_bucket": "autophoto-3e7d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604150610506:android:66442cdafe52bdfd",
+        "android_client_info": {
+          "package_name": "com.ionicframework.autophoto693972"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604150610506-s5q2ae5ia8dj79kqea79uebdmcfoo094.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ionicframework.autophoto693972",
+            "certificate_hash": "4a5a3179d1fee367a92491442da014605312f8e8"
+          }
+        },
+        {
+          "client_id": "604150610506-8n7n4nr6ra82go1mlt9kdamfrel5k5ls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJQ_WGthLEK_KrShcnQ8BZWZLwLcajH1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604150610506-8n7n4nr6ra82go1mlt9kdamfrel5k5ls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

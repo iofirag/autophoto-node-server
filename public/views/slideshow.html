@@ -1,0 +1,6 @@
+<section class="slideshow-page" ng-init="init()">
+	<div ng-show="!currImg.url" class="loadingContainer">
+		<img class="loading" ng-src="../assets/spinner.gif"/>
+	</div>
+	<img class="bg" ng-show="currImg.url" ng-src="{{currImg.url}}"/>
+</section>
